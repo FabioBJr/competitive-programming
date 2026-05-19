@@ -1,21 +1,26 @@
 # 1259 - Even and Odd
 
-[Submit Solution](#https://judge.beecrowd.com/en/problems/view/1259)
+[Submit Solution](https://judge.beecrowd.com/en/problems/view/1259)
 
 ## Description
 Considering the input of non-negative integer values​​, sort these numbers ​​according to the following criteria: First the even in ascending order followed by the odd in descending order.
 
 ## Entrada (Input)
 
-The first line of input contains a positive integer number N (1 < N <= 105). This is the number of following input lines. The next N lines<br> contain, each one, a integer non-negative number.
+The first line of input contains a positive integer number $N$ $1 < N \le 10^5$. This is the number of following input lines. The next N lines<br> contain, each one, a integer non-negative number.
 
 ## Saída (Output)
 
 Print all numbers according to the explanation presented above. Each number must be printed in one line as shown below.
 
+## Examples
+| Input | Output |
+| :--- | :--- |
+| `10`<br>`4`<br>`32`<br>`34`<br>`543`<br>`3456`<br>`654`<br>`567`<br>`87`<br>`6789`<br>`98` | `4`<br>`32`<br>`34`<br>`98`<br>`654`<br>`6789`<br>`567`<br>`343`<br>`87`<br> |
+
 ---
 
-### Implementação em C++
+### Implementation in C++
 ```cpp
 #include <bits/stdc++.h>
 

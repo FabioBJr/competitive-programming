@@ -1,8 +1,8 @@
 # 4561 - Números Invisíveis
 
-[Submit Solution](#https://cp.nextline.com.br/problem/171)
+[Submit Solution](https://cp.nextline.com.br/problem/171)
 
-## Descrição
+## Description
 
 Considere a sequência de todos os inteiros positivos em ordem crescente: 1, 2, 3, … Alguns desses números contêm o dígito 0 na sua escrita decimal — por exemplo, 10, 20, 100, 305. Chamamos de invisível todo número que não possui o dígito 0 em nenhuma posição.
 
@@ -38,7 +38,7 @@ O problema pode ser modelado como uma variação de **mudança de base**. Como o
 
 No entanto, há um pequeno detalhe conhecido como *numeração bijetiva* (base sem o zero). Quando o resto da divisão por 9 for 0, em vez de adicionarmos um '0' à nossa resposta (o que é inválido para números invisíveis), nós adicionamos o dígito '9' e "emprestamos" 1 do próximo valor a ser dividido (`n = n / 9 - 1`).
 
-### Implementação em C++
+### Implementation in C++
 ```cpp
 #include <bits/stdc++.h>
 

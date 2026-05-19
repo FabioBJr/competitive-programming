@@ -4,18 +4,21 @@
 
 ## Description
 
-Dada uma pilha de $n$ cartas ordenadas de 1 a $n$, com a carta 1 no topo e a carta $n$ na base. A seguinte operação é realizada enquanto houver pelo menos duas cartas na pilha:
-Jogue fora a carta do topo e mova a carta que agora está no topo da pilha para a base da pilha.
+Given in an ordered deck of n cards numbered 1 to n with card 1 at the top and card n at the bottom. The following operation is performed as long as there are at least two cards in the deck:
 
-Sua tarefa é encontrar a sequência de cartas descartadas e a última carta remanescente.
+Throw away the top card and move the card that is now on the top of the deck to the bottom of the deck.
+
+Your task is to find the sequence of discarded cards and the last, remaining card.
+
+Each line of input (except the last) contains a number n ≤ 50. The last line contains 0 and this line should not be processed. For each number from the input produce two lines of output. The first line presents the sequence of discarded cards, the second line reports the last remaining card.
 
 ## Input (Entrada)
 
-O arquivo de entrada contém um número indeterminado de linhas. Cada linha (exceto a última) contém um número $n$ $\le$ 50. A última linha contém o número 0 e esta linha não deve ser processada. 
+The input file contains a non determinated number of lines. Each line contains an integer number. The last line contain the number zero (0).
 
 ## Output (Saída)
 
-Para cada número da entrada, produza duas linhas de saída. A primeira linha apresenta a sequência de cartas descartadas, cada número separado por uma vírgula `,` e um espaço em branco. A segunda linha relata a última carta restante. Nenhuma linha terá espaços em branco no início ou no final. Veja o exemplo para o formato esperado.
+For each test case, print two lines. The first line presents the sequence of discarded cards, each number separated by a comma ',' and one blank space. The second line reports the last remaining card. No line will have leading or trailing spaces. See the sample for the expected format.
 
 ## Examples
 
@@ -24,7 +27,7 @@ Para cada número da entrada, produza duas linhas de saída. A primeira linha ap
 | `7`<br>`19`<br>`10`<br>`6`<br>`0` | `Discarded cards: 1, 3, 5, 7, 4, 2`<br>`Remaining card: 6`<br>`Discarded cards: 1, 3, 5, 7, 9, 11, 13, 15, 17, 19, 4, 8, 12, 16, 2, 10, 18, 14`<br>`Remaining card: 6`<br>`Discarded cards: 1, 3, 5, 7, 9, 2, 6, 10, 8`<br>`Remaining card: 4`<br>`Discarded cards: 1, 3, 5, 2, 6`<br>`Remaining card: 4` |
 ---
 
-### Implementação em C++
+### Implementation in C++
 
 ```cpp
 #include <bits/stdc++.h>
