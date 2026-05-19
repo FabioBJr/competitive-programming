@@ -1,6 +1,6 @@
 # 1164- Room Allocation
 
-**Time limite** 1.00 s **Memory limit:** 512 MB
+**Time limit** 1.00 s **Memory limit:** 512 MB
 
 [Submit Solution](https://cses.fi/problemset/task/1164)
 
