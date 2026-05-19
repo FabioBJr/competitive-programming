@@ -1,6 +1,6 @@
 # 1259 - Even and Odd
 
-[Submit Solution](#https://judge.beecrowd.com/en/problems/view/1259)
+[Submit Solution](https://judge.beecrowd.com/en/problems/view/1259)
 
 ## Description
 Considering the input of non-negative integer values​​, sort these numbers ​​according to the following criteria: First the even in ascending order followed by the odd in descending order.
