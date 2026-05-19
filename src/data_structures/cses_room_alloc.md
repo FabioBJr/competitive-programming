@@ -21,11 +21,11 @@ Then there are n lines, each of which describes one customer. Each line has two 
 
 Print first an integer $k$: the minimum number of rooms required.
 
-After that, print a line that contains the room number of each customer in the same order as in the input. The rooms are numbered 1,2,...,$k$. You can print any valid solution.
+After that, print a line that contains the room number of each customer in the same order as in the input. The rooms are numbered 1,2,..., $k$. You can print any valid solution.
 
 ## Constraints
-* $1 \\le n \\le 1500$, $1 \\le k \\le 30$
-* $1 \le n \le 2 \cdot 10^5$
+* $1 \le n \le 2 * 10^5$
+* $1 \le a \le b \le 10^9$
 ---
 
 ### Implementation in C++
