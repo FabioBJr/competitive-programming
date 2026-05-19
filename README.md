@@ -73,13 +73,13 @@ int main() {
 * **`ll` (`long long`)**: Prevents integer overflow when dealing with large numbers up to ~ $9 \times 10^{18}$.
 * **`pii` (`pair<int, int>`)**: A quick shortcut for declaring a pair of integers, heavily used for coordinates or graph edges.
 * **`vi` (`vector<int>`)**: A short alias for a dynamic array of integers.
-* **`INF` and `LINF**`: Constants representing safely large numbers for integer and long long types, respectively. `0x3f3f3f3f` is useful because `INF + INF` won't overflow a 32-bit integer.
+* **`INF` and `LINF`**: Constants representing safely large numbers for integer and long long types, respectively. `0x3f3f3f3f` is useful because `INF + INF` won't overflow a 32-bit integer.
 
 ### Macros
 
 * **`endl` (`'\n'`)**: Redefining `endl` to `'\n'` speeds up output significantly by avoiding continuous flushing of the stream buffer.
 * **`pb`**: Replaces `push_back` to save keystrokes.
-* **`f` / `s**`: Shortcuts for `.first` and `.second` when working with pairs.
+* **`f` / `s`**: Shortcuts for `.first` and `.second` when working with pairs.
 * **`all(x)`**: Expands to `x.begin(), x.end()`. Highly useful for quick sorting or searching, e.g., `sort(all(v))`.
 * **`dbg(x)`**: A local debugging macro. If the code is compiled with `-DLOCAL`, it prints the variable name and its value to the standard error stream (`cerr`). Otherwise, it does nothing, preventing debug output from causing Wrong Answers on online judges.
 
@@ -115,5 +115,3 @@ int main() {
 
 * **Usage**: `map<string, int> m; m["apple"] = 5;`
 * **Note**: If you access a key that doesn't exist (e.g., `m["banana"]`), it automatically creates that key with a default value (like `0`).
-
-```
