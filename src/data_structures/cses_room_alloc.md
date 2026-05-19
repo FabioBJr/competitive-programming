@@ -1,6 +1,6 @@
 # 1164- Room Allocation
 
-**Time limite** 1.00 s **Memory limit: 512 MB**
+**Time limite** 1.00 s **Memory limit:** 512 MB
 
 [Submit Solution](https://cses.fi/problemset/task/1164)
 
@@ -26,6 +26,11 @@ After that, print a line that contains the room number of each customer in the s
 ## Constraints
 * $1 \le n \le 2 * 10^5$
 * $1 \le a \le b \le 10^9$
+
+## Example
+| Input | Output |
+| :--- | :--- |
+| `3`<br>`1 2`<br>`2 4`<br>`4 4` | `2`<br>`1 2 1` |
 ---
 
 ### Implementation in C++
