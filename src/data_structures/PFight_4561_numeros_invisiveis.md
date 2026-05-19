@@ -1,6 +1,6 @@
 # 4561 - Números Invisíveis
 
-[Submit Solution](#https://cp.nextline.com.br/problem/171)
+[Submit Solution](https://cp.nextline.com.br/problem/171)
 
 ## Descrição
 
