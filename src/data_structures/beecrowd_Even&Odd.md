@@ -7,7 +7,7 @@ Considering the input of non-negative integer values​​, sort these numbers �
 
 ## Entrada (Input)
 
-The first line of input contains a positive integer number N (1 < N <= 105). This is the number of following input lines. The next N lines<br> contain, each one, a integer non-negative number.
+The first line of input contains a positive integer number $N$ $1 < N \le 10^5$. This is the number of following input lines. The next N lines<br> contain, each one, a integer non-negative number.
 
 ## Saída (Output)
 
